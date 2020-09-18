@@ -40,9 +40,6 @@ void Game::UpdateModel()
 {
 	bool cond = wnd.kbd.KeyIsPressed(VK_UP);
 	bool cond1 = wnd.kbd.KeyIsPressed(VK_DOWN);
-	bool cond2 = wnd.kbd.KeyIsPressed(VK_LEFT);
-	bool cond3 = wnd.kbd.KeyIsPressed(VK_RIGHT);
-	bool cond4 = wnd.kbd.KeyIsPressed(VK_SHIFT);
 	bool cond5 = wnd.kbd.KeyIsPressed(VK_CONTROL);
 	bool cond6 = wnd.kbd.KeyIsPressed(VK_TAB);
 	bool cond_start = wnd.kbd.KeyIsPressed(VK_SPACE);
