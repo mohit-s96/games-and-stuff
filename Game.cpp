@@ -121,7 +121,6 @@ void Game::UpdateModel()
 			}
 		}
 	}
-	//y = y + vy;
 	
 }
 
@@ -146,31 +145,6 @@ void Game::ComposeFrame()
 	}
 	CreatePads(player1_x, player1_y, player1_r, player1_g, player1_b);
 	CreatePads(player2_x, player2_y, player2_r, player2_g, player2_b);
-
-
-
-	/*gfx.PutPixel(400, 295, 0, 255, 0);
-	gfx.PutPixel(399, 296, 0, 255, 0);
-	gfx.PutPixel(398, 297, 0, 255, 0);
-	gfx.PutPixel(397, 298, 0, 255, 0);
-	gfx.PutPixel(396, 299, 0, 255, 0);
-	gfx.PutPixel(395, 300, 0, 255, 0);
-	gfx.PutPixel(396, 301, 0, 255, 0);
-	gfx.PutPixel(397, 302, 0, 255, 0);
-	gfx.PutPixel(398, 303, 0, 255, 0);
-	gfx.PutPixel(399, 304, 0, 255, 0);
-	gfx.PutPixel(400, 305, 0, 255, 0);
-	gfx.PutPixel(401, 304, 0, 255, 0);
-	gfx.PutPixel(402, 303, 0, 255, 0);
-	gfx.PutPixel(403, 302, 0, 255, 0);
-	gfx.PutPixel(404, 301, 0, 255, 0);
-	gfx.PutPixel(405, 300, 0, 255, 0);
-	gfx.PutPixel(404, 299, 0, 255, 0);
-	gfx.PutPixel(403, 298, 0, 255, 0);
-	gfx.PutPixel(402, 297, 0, 255, 0);
-	gfx.PutPixel(401, 296, 0, 255, 0);*/
-
-	
 }	
 
 
