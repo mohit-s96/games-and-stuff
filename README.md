@@ -1,12 +1,9 @@
-# chilli-framework-pong
-basic game of pong in chilli framework
+# chilli-framework-assignments
 
-simple pong game i made while going through C++ game tutorial https://www.youtube.com/watch?v=kJUjegbqFag
+this repo is for maintaining project files and tracking progress while going through C++ game tutorials by chillitomatonoodle
+https://www.youtube.com/playlist?list=PLqCJpWy5FohcehaXlCIt8sVBHBFFRVWsx
 
 get the chilli framework https://github.com/planetchili/chili_framework
 replace game.h and game.cpp with the ones in this repo
 
-Controls : 
-start game : space
-player1 up : up arrow, down : down arrow
-player2 up : tab, down : ctrl
+use whatever you want
